@@ -1,0 +1,82 @@
+$primary-color: #536C4C ;
+$accent-color: #26486D;
+$bg-color: aliceblue;
+$blood-color: #A02F3C;
+$text-color: white;
+$banner1-bg: #0fb8ad;
+$banner2-bg: #1fc8db;
+$banner3-bg: #2cb5e8;
+$alive-cell: #ffa333;
+
+
+.bannerHead{
+   background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(141deg, $banner1-bg 0%, $banner2-bg 51%, $banner3-bg 75% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(141deg, $banner1-bg 0%, $banner2-bg 51%, $banner3-bg 75% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(141deg, $banner1-bg 0%, $banner2-bg 51%, $banner3-bg 75% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(141deg, $banner1-bg 0%, $banner2-bg 51%, $banner3-bg 75% ); /* Standard syntax */
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 28px;
+  text-align: center;
+  color: $text-color;
+  width: 98%;
+  margin: auto;
+}
+
+.cellHolder{
+  border: 2px solid $banner1-bg;
+  margin: auto;
+  width: 618px;
+  background-color: silver;
+  height: 480px;
+
+}
+
+#gameInfo{
+  font-size: 14px;
+}
+
+a:link {
+  text-decoration: none;
+  color: $text-color *.9;
+}
+
+a:visited {
+  text-decoration: none;
+  color: $text-color * .9;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $text-color;
+}
+
+body{
+  background-color: $bg-color;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+td{
+  border: 1px solid silver;
+  width: 14px;
+  height: 14px;
+  background-color: silver * 1.2;
+  border-radius: 1px;
+}
+
+.alive{
+  background-color: $alive-cell;
+}
+
+.control_banner{
+  margin: auto;
+  width: 618px;
+  background-color: silver * 1.1;
+  padding: 5px;
+  border-radius: 1px;
+}
+
+.generations{
+  font-size: 20px;
+}
